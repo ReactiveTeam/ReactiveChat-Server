@@ -1,0 +1,34 @@
+{
+    "env": {
+        "es6": true,
+        "node": true
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+        "no-var": "error",
+        "no-undef": "warn",
+        "no-unused-vars": "warn",
+        "capitalized-comments": "off",
+        "spaced-comment": "warn",
+        "prefer-template": "error",
+        "prefer-spread": "error",
+        "prefer-const": "error",
+        "prefer-reflect": "error",
+        "indent": [
+            "error",
+            4
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ]
+    }
+}
