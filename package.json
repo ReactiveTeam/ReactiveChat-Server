@@ -9,6 +9,7 @@
 	  "express": "4.13.4"
 	},
 	"scripts": {
-	  "start": "node index.js"
+	  "start": "node index.js",
+	  "init": "git submodule init; git submodule update; npm i"
 	}
   }
